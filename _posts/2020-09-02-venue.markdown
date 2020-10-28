@@ -1,0 +1,14 @@
+---
+layout: post
+title:  " Practical Blind Membership Inference Attack via Differential Comparisons"
+date:   2020-09-02 20:21:59 +00:00
+
+categories: research
+author: "Haolin Yuan"
+authors: "Bo Hui*, Yuchen Yang*, <strong>Haolin Yuan*</strong>, Philippe Burlina, Neil Gong, Yinzhi Cao          *:equally contributed "
+venue: "Network & Distributed System Security Symposium (NDSS), 2021, under review"
+paper: 
+code: https://github.com/hyhmia/BlindMI
+---
+We propose an MI attack, called BLINDMI, which probes the target model and extracts membership semantics via a novel approach, called differential comparison. The high-level idea is that BLINDMI first generates a dataset with nonmembers via transforming existing samples into new, and then differentially moves samples from a target dataset to the generated, non-member set in an iterative manner. If the differential move of a sample increases the set distance, BLINDMI considers the sample as non-member and vice versa. BLINDMI solve the problem that formal heavily depend on shadow models.
+
