@@ -1,0 +1,6 @@
+I"*<ul>
+  <li>Different from typical MI attacks utilizing shadow models to simulate the target model,
+ our attack framework probes the target model and extracts membership semantics via differential comparison.</li>
+  <li>Our method outperforms all SOTA MI attacks and defeat SOTA defense.</li>
+</ul>
+:ET

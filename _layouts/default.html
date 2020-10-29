@@ -10,8 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"><link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
 
 </head>
 
@@ -56,7 +56,10 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research Interests</h2>
               <p>
-              I'm interested in machine learning security, machine learning privacy, and adverserial machine learning. My current projects mainly focus on:
+              I'm interested in machine learning security, machine learning privacy, and adverserial machine learning.
+                  <br>
+                  My current projects mainly focus on:
+              </p>
                 <ul>
                   <li>Membership inference attack</li>
                   <li>Model inversion attack</li>
@@ -106,7 +109,7 @@
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
               <p></p>
-              {{ post.excerpt }}
+                <i style="color: #996633">{{ post.excerpt }}</i>
             </td>
           </tr>
           {% endif %}
@@ -124,14 +127,22 @@
         
          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                   <tr>
-                    <td style="padding:2.5%;width:100%;vertical-align:middle">
+                    <td style="padding:0% 2.5% 2.5% 2.5%;width:100%;vertical-align:middle">
                       <h2>Teachning/Researching Experience</h2>
-                      <p> ...
+                      <p> <strong>Teaching Asssitant  |  Brandeis University</strong>
+                          <br><i>Course: Precalculus Mathematics</i>
                       </p>
+                        <p> <strong>Course Assistant  |  Johns Hopkins University</strong>
+                            <br> <i>Course: Web Security</i>
+                        </p>
+                        <p><strong>Research Assistant |  Johns Hopkins University</strong>
+                            <br> <i>Date: Mar 2020 - present</i>
+                        </p>
                     </td>
                   </tr>
                 </table>
                 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
 
                   {% for post in site.posts %}
                   {% for cat in post.categories %}
@@ -185,6 +196,8 @@
                   {% endif %}
                   {% endfor %}
                   {% endfor %}
+
+
                 </table>
                 <br>
                 <br>
@@ -196,7 +209,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:right;font-size:small;">
-                Source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website, <a href="https://github.com/leonidk/new_website">Jekyll template</a></a> from <a href="https://leonidk.com/">Leonid Keselman</a></a>
+                 <a href="https://leonidk.com/">Jekyll template</a></a>
               </p>
             </td>
           </tr>
