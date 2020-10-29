@@ -12,5 +12,5 @@ paper:
 ---
 
 * We designed and tested a proof-of-concept system called WebAlly 
-* using Google reCAPTCHA as the task in studies with PVI adults and their friends or families.
+* We used Google reCAPTCHA as the task in studies with PVI adults and their friends or families.
 
