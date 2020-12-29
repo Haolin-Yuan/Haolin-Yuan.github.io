@@ -6,7 +6,7 @@ date:   2020-09-02 20:21:59 +00:00
 categories: research
 author: "Haolin Yuan"
 authors: "Bo Hui*, Yuchen Yang*, <strong>Haolin Yuan*</strong>, Philippe Burlina, Neil Gong, Yinzhi Cao          *:equally contributed "
-venue: "Network & Distributed System Security Symposium (NDSS), 2021, under review"
+venue: "in the Proceedings of Network & Distributed System Security Symposium (NDSS), 2021"
 paper: 
 code: 
 ---
